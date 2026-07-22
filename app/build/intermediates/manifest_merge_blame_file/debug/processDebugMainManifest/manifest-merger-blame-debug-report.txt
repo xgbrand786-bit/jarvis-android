@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.muneeb.jarvis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:5:5-71
+12-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:6:22-62
+14
+15    <uses-feature
+15-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:8:5-10:36
+16        android:name="android.hardware.camera"
+16-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:9:9-47
+17        android:required="false" />
+17-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:10:9-33
+18
+19    <application
+19-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:12:5-28:19
+20        android:allowBackup="true"
+20-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:13:9-35
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:label="JARVIS"
+23-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:14:9-31
+24        android:theme="@style/AppTheme" >
+24-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:15:9-40
+25        <activity
+25-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:17:9-26:20
+26            android:name="com.muneeb.jarvis.MainActivity"
+26-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:18:13-41
+27            android:exported="true" >
+27-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:19:13-36
+28            <intent-filter>
+28-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:21:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:22:17-69
+29-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:22:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:23:17-77
+31-->/data/data/com.termux/files/home/jarvis_android/app/src/main/AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
